@@ -1,4 +1,4 @@
-package module1.gps;
+package module1.Mod1Problem3;
 
 public class Gps {
     /*

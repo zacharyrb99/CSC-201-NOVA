@@ -1,4 +1,4 @@
-package module1.calculateNum;
+package module1.Mod1Problem1;
 import java.util.Scanner; // allows for user input
 
 public class Student {

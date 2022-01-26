@@ -1,4 +1,4 @@
-package module1.vending_machine;
+package module1.Mod1Problem2;
 
 public class App {
     public static void main(String[] args) {

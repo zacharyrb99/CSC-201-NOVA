@@ -1,4 +1,4 @@
-package module1.complexNumbers;
+package module1.Mod1Problem4;
 
 public class ComplexNums {
     // Class Variables
@@ -24,7 +24,7 @@ public class ComplexNums {
         int realAdd = a1 + a2;
         int imagAdd = b1 + b2;
 
-        addResult = String.format("The sum of the numbers you input is %s + %si", realAdd, imagAdd);
+        addResult = String.format("Addition: (%s + %s) + (%s + %s)i = %s + %si", a1, a2, b1, b2, realAdd, imagAdd);
         System.out.println(addResult);
     }
 
@@ -33,7 +33,7 @@ public class ComplexNums {
         int imagSubtract = b1 - b2;
         
 
-        subtractResult = String.format("The difference of the numbers you input is (%s) - (%si)", realSubtract, imagSubtract);
+        subtractResult = String.format("Subtraction: (%s - %s) + (%s - %s)i = (%s) - (%si)", a1, a2, b1, b2, realSubtract, imagSubtract);
         System.out.println(subtractResult);
     }
 
@@ -41,7 +41,7 @@ public class ComplexNums {
         int realMultiply = (a1 * a2) - (b1 * b2);
         int imagMultiply = (a1 * b2) + (b1 * a2);
 
-        multiplyResult = String.format("The product of the numbers you input is %s * %si", realMultiply, imagMultiply);
+        multiplyResult = String.format("Multiplication: ((%s * %s) - (%s * %s)) + ((%s * %s) + (%s * %s))i = %s * %si", a1, a2, b1, b2, a1, b2, a2, b1, realMultiply, imagMultiply);
         System.out.println(multiplyResult);
     }
 
@@ -49,7 +49,7 @@ public class ComplexNums {
         double realDivide = ((a1 * a2) + (b1 * b2)) / (Math.pow(a2, 2) + Math.pow(b2, 2));
         double imagDivide = ((b1 * a2) - (a1 * b2)) / (Math.pow(a2, 2) + Math.pow(b2, 2));
 
-        divideResult = String.format("The quotient of the numbers you input is %s / %si", realDivide, imagDivide);
+        divideResult = String.format("Division: (((%s * %s) + (%s * %s))/(%s^2 + %s^2)) + (((%s * %s) - (%s * %s))/((%s^2 + %s^2)))i = %s / %si", a1, a2, b1, b2, a2, b2, b1, a2, a1, b2, a2, b2, realDivide, imagDivide);
         System.out.println(divideResult);
     }
 

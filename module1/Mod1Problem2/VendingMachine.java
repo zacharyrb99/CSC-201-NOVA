@@ -1,4 +1,4 @@
-package module1.vending_machine;
+package module1.Mod1Problem2;
 import java.util.Scanner; // allows for user input
 
 public class VendingMachine {
@@ -14,7 +14,6 @@ public class VendingMachine {
     // Function to accept money from user input
     void acceptMoney() {
         System.out.println("Please enter your money in coins or $1/$5 bills (input 0 to proceed to selection): ");
-        // Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
 
         while (input != "0") {
@@ -89,6 +88,7 @@ public class VendingMachine {
         System.out.println("4: Gatorade - $2.75");
         System.out.println("5: Sprite - $2.00");
         System.out.println("0: Cancel Transaction");
+        System.out.println();
 
         item = scan.nextInt();
 
@@ -103,6 +103,7 @@ public class VendingMachine {
                     chooseItem();
                 } else {
                     price = 1.50;
+                    System.out.println("Here are your Doritos!");
                     returnChange();
                 }
             } else if (item == 2) {
@@ -115,6 +116,7 @@ public class VendingMachine {
                     chooseItem();
                 } else {
                     price = 1.00;
+                    System.out.println("Here are your Skittles!");
                     returnChange();
                 }
             } else if (item == 3) {
@@ -127,6 +129,7 @@ public class VendingMachine {
                     chooseItem();
                 } else {
                     price = 1.50;
+                    System.out.println("Here are your Cheetos!");
                     returnChange();
                 }
             } else if (item == 4) {
@@ -139,6 +142,7 @@ public class VendingMachine {
                     chooseItem();
                 } else {
                     price = 2.75;
+                    System.out.println("Here is your Gatorade!");
                     returnChange();
                 }
             } else if (item == 5) {
@@ -151,6 +155,7 @@ public class VendingMachine {
                     chooseItem();
                 } else {
                     price = 2.00;
+                    System.out.println("Here is your Sprite!");
                     returnChange();
                 }
             } else if (item == 0) {

@@ -1,4 +1,4 @@
-package module1.calculateNum;
+package module1.Mod1Problem1;
 
 public class App {
     public static void main(String args[]){
