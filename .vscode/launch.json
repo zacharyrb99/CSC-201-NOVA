@@ -1,0 +1,239 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(1)",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch VendingTest",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem2.VendingTest",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(2)",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem3.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(3)",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem4.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComplexNumsTest",
+            "request": "launch",
+            "mainClass": "module1.Mod1Problem4.ComplexNumsTest",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(4)",
+            "request": "launch",
+            "mainClass": "module1.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(5)",
+            "request": "launch",
+            "mainClass": "module2.Mod2Problem1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(6)",
+            "request": "launch",
+            "mainClass": "module2.Mod2Problem2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(7)",
+            "request": "launch",
+            "mainClass": "module2.Mod2Problem3.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(8)",
+            "request": "launch",
+            "mainClass": "module2.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(9)",
+            "request": "launch",
+            "mainClass": "module3.Mod3Problem1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(10)",
+            "request": "launch",
+            "mainClass": "module3.Mod3Problem2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoVolume",
+            "request": "launch",
+            "mainClass": "module3.Mod3Problem3.DemoVolume",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch Builder",
+            "request": "launch",
+            "mainClass": "module3.Mod3Problem4.Builder",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharacterArray",
+            "request": "launch",
+            "mainClass": "module3.Mod3Problem5.CharacterArray",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(11)",
+            "request": "launch",
+            "mainClass": "module3.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(12)",
+            "request": "launch",
+            "mainClass": "module4.Mod4Problem1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(13)",
+            "request": "launch",
+            "mainClass": "module4.Mod4Problem2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(14)",
+            "request": "launch",
+            "mainClass": "module4.Mod4Problem3.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(15)",
+            "request": "launch",
+            "mainClass": "module4.Mod4Problem4.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestStack",
+            "request": "launch",
+            "mainClass": "module4.solveAndDiscuss.TestStack",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(16)",
+            "request": "launch",
+            "mainClass": "module5.Mod5Prob1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(17)",
+            "request": "launch",
+            "mainClass": "module5.Mod5Prob2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(18)",
+            "request": "launch",
+            "mainClass": "module5.Mod5Prob3.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(19)",
+            "request": "launch",
+            "mainClass": "module5.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(20)",
+            "request": "launch",
+            "mainClass": "module6.Mod6Prob1.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(21)",
+            "request": "launch",
+            "mainClass": "module6.Mod6Prob2.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(22)",
+            "request": "launch",
+            "mainClass": "module6.Mod6Prob3.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(23)",
+            "request": "launch",
+            "mainClass": "module6.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlowPaneDemo",
+            "request": "launch",
+            "mainClass": "module7.Mod7Prob1.FlowPaneDemo",
+            "projectName": "CSC-201-NOVA_355fe890",
+            "vmArgs": "--module-path \"/home/zach-boudreaux/github_repos/CSC-201-NOVA/javafx_lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(24)",
+            "request": "launch",
+            "mainClass": "module8.solveAndDiscuss.App",
+            "projectName": "CSC-201-NOVA_355fe890"
+        }
+    ]
+}
